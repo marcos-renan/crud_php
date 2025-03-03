@@ -1,5 +1,5 @@
 <?php
-    if (isset($_SESSION['mensagem']));
+    if (isset($_SESSION['mensagem'])){
 ?>
 
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -8,6 +8,6 @@
 </div>
 
 <?php
-    unset($_SESSION['mensagem']);
+    unset($_SESSION['mensagem']);}
 
 ?>
