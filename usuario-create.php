@@ -24,7 +24,7 @@
                         </h4>
                     </div>
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="acoes.php" method="POST">
                             <div class="mb-3">
                                 <label>Nome</label>
                                 <input type="text" name="nome" class="form-control" placeholder="Seu nome completo">
