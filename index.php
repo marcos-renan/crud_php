@@ -12,6 +12,8 @@ require('conexao.php');
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>Usuarios</title>
   </head>
@@ -56,13 +58,13 @@ require('conexao.php');
                                     <td>
                                         <!--BOTOES -->
                                         <!--botao visualizar -->
-                                        <a href="usuario-view.php?id=<?= $usuario['id'] ?>" class="btn btn-secondary btn-sm">Visualizar</a>
+                                        <a href="usuario-view.php?id=<?= $usuario['id'] ?>" class="btn btn-secondary btn-sm"><span class="bi-eye-fill"></span>&nbsp;Visualizar</a>
                                         <!--botao editar -->
-                                        <a href="usuario-edit.php?id=<?= $usuario['id'] ?>" class="btn btn-success btn-sm">Editar</a>
+                                        <a href="usuario-edit.php?id=<?= $usuario['id'] ?>" class="btn btn-success btn-sm"><span class="bi-pencil-fill"></span>&nbsp;Editar</a>
                                         <!--botao excluir -->
                                         <form action="acoes.php" method="POST" class="d-inline">
                                             <button onclick="return confirm('Tem certeza que deseja excluir?')" type="submit" name="delete_usuario" value="<?= $usuario['id'] ?>" class="btn btn-danger btn-sm">
-                                                Excluir
+                                            <span class="bi-trash3"></span>&nbsp;Excluir
                                             </button>
                                         </form>
                                     </td>
