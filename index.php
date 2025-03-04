@@ -54,8 +54,12 @@ require('conexao.php');
                                     <td><?=$usuario['email'] ?></td>
                                     <td><?= date('d/m/Y', strtotime($usuario['data_nascimento'])) ?></td>
                                     <td>
-                                        <a href="" class="btn btn-secondary btn-sm">Visualizar</a>
+                                        <!--BOTOES -->
+                                        <!--botao visualizar -->
+                                        <a href="usuario-view.php?id=<?= $usuario['id'] ?>" class="btn btn-secondary btn-sm">Visualizar</a>
+                                        <!--botao editar -->
                                         <a href="" class="btn btn-success btn-sm">Editar</a>
+                                        <!--botao excluir -->
                                         <form action="" method="POST" class="d-inline">
                                             <button type="submit" name="delete_usuario" value="1" class="btn btn-danger btn-sm">
                                                 Excluir
