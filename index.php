@@ -28,7 +28,7 @@ require('conexao.php');
                 <div class="card">
                     <div class="card-header">
                         <h4>Lista de usuários
-                            <a href="usuario-create.php" class="btn btn-primary float-end">Adicionar usuário</a>
+                            <a href="usuario-create.php" class="btn btn-primary float-end"><span class="bi bi-person-plus-fill"></span>&nbsp;Adicionar usuário</a>
                         </h4>
                     </div>
                     <div class="card-body">

@@ -12,6 +12,8 @@ require('conexao.php');
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>Usuário - Editar</title>
   </head>
@@ -25,7 +27,7 @@ require('conexao.php');
                 <div class="card">
                     <div class="card-header">
                         <h4>Editar usuário
-                            <a href="index.php" class="btn btn-danger float-end">Voltar</a>
+                            <a href="index.php" class="btn btn-danger float-end"><span class="bi bi-arrow-counterclockwise"></span>&nbsp;Voltar</a>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -58,7 +60,7 @@ require('conexao.php');
                                 <input type="password" name="senha" class="form-control" placeholder="Digite uma senha">
                             </div>
                             <div class="mb-3">
-                                <button type="submit" name="update_usuario" class="btn btn-primary">Salvar</button>
+                                <button type="submit" name="update_usuario" class="btn btn-primary"><span class="bi bi-floppy2-fill"></span>&nbsp;Salvar</button>
                             </div>
                         </form>
                         <!-- fim do if -->
