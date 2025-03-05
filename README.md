@@ -3,7 +3,7 @@
 Este projeto é um sistema de CRUD (Create, Read, Update, Delete) completo desenvolvido em PHP 8.4. 
 
 ### Tecnologias Utilizadas
-- 🗒️ PHP 8.4
+- 👅 PHP 8.4
 - 🎨 Bootstrap 5
 - 🎲 MySQL
 
